@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+sklearn-crfsuite
+torch
+torchcrf
+transformers
+datasets
+seqeval
+spacy
+matplotlib
+seaborn
+openpyxl
