@@ -87,6 +87,23 @@ At the aggregate level, the study reported:
 
 The results highlight the complementary strengths of both approaches: rule-based extraction works well for highly structured patterns, while contextual NER models are more suitable for varied and narrative legal language.
 
+## Results Visualization
+
+### Entity Distribution
+The annotated dataset contains 13 legal entity types with an uneven class distribution across the dataset.
+
+![Entity Distribution](images/entity_distribution.png)
+
+### NER Model Performance Comparison
+IndoLegalBERT achieved the strongest overall performance among the evaluated NER models.
+
+![NER Model Performance Comparison](images/ner_model_comparison.png)
+
+### IndoLegalBERT vs Rule-Based Extraction
+The transformer-based approach achieved stronger aggregate performance, while the rule-based method remained competitive for entities with stable and predictable textual patterns.
+
+![IndoLegalBERT vs Rule-Based](images/indolegalbert_vs_rule_based.png)
+
 ## Key Challenges
 
 The project identified several challenges in legal information extraction:
